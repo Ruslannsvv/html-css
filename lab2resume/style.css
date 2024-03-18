@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(168, 175, 175);
+  }
+  
+  .profile-pic {
+    transition: transform 0.5s ease;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+  }
+  .profile-pic:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info, .skills-list, .education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li, .skills-list li, .education-list li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .skills-list img {
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049;
+  }
